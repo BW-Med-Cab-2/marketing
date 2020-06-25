@@ -210,10 +210,10 @@ img {
   width: 85%;
   margin: 0 auto;
 }
-.separate {
+/* .separate {
   padding: 0 0.3rem 0 0.5rem;
   border-right: 0.3vh solid black;
-}
+} */
 #register {
   border-left: 3px dashed black;
   padding: 0 0 0 1.5rem;
@@ -257,6 +257,10 @@ img {
 .firstq {
   color: forestgreen;
   opacity: 0.8;
+}
+.disclaimer {
+  font-size: 0.6rem;
+  text-align: center;
 }
 @media (max-width: 1350px) {
   h1 {
