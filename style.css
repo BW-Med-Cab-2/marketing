@@ -104,6 +104,7 @@ h1 {
   width: 15%;
   margin-left: 1.5rem;
   font-family: "Yellowtail", cursive;
+  color: black;
 }
 header nav {
   display: flex;
@@ -211,7 +212,11 @@ img {
 }
 .separate {
   padding: 0 0.3rem 0 0.5rem;
-  border-right: 3px dashed black;
+  border-right: 0.3vh solid black;
+}
+#register {
+  border-left: 3px dashed black;
+  padding: 0 0 0 1.5rem;
 }
 .title {
   font-family: "Yellowtail", cursive;
@@ -236,10 +241,22 @@ img {
 }
 .gallery p {
   font-size: 1.3rem;
+  color: forestgreen;
+  opacity: 0.8;
 }
 .gallery .bio {
   font-size: 1rem;
   margin: 0 auto;
+  color: black;
+}
+.question {
+  color: forestgreen;
+  opacity: 0.8;
+  border-top: 3px dashed black;
+}
+.firstq {
+  color: forestgreen;
+  opacity: 0.8;
 }
 @media (max-width: 1350px) {
   h1 {
@@ -347,7 +364,7 @@ img {
     text-align: center;
   }
   header nav {
-    max-height: 17vh;
+    /* max-height: 17vh; */
     /* justify-content: stretch; */
     align-items: center;
     width: 100%;
@@ -373,5 +390,10 @@ img {
     margin: 0 auto;
     text-align: center;
     width: 95%;
+  }
+  @media (max-width: 460px) {
+    #register {
+      padding-left: 0.5rem;
+    }
   }
 }
